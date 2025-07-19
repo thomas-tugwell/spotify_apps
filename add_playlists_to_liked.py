@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Spotify App Credentials
-CLIENT_ID = 'aa3bbb1bf4dd443eb2c54a4475062ee6'
-CLIENT_SECRET = '0eb67e8c86014b31ac3fffffb084cd30'
+CLIENT_ID = 'your_client_ID'
+CLIENT_SECRET = 'your_client_secret'
 REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 
 # Scope to read playlists and add to liked songs
